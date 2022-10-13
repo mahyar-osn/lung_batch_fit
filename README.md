@@ -11,6 +11,9 @@ and OpenCMISS-Zinc
 
 Inside the top level directory (i.e., `lung_batch_fit`) do:
 
+(NOTE: since this installation uses the newly added `pyproject.toml` BETA, you need to first update your `pip` to 
+its latest version).
+
 ```console
 pip install -e .
 ```
