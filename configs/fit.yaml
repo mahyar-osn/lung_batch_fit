@@ -1,0 +1,11 @@
+inputs:
+  model_file_name:
+  - 'D:/12-labours/codes/python-packages/lung_batch_fit/tests/resources/lung_mesh.exf'
+  data_file_name:
+  - 'D:/12-labours/codes/python-packages/lung_batch_fit/tests/resources/hla-tlc_pred.exdata'
+
+output_path:
+
+params:
+  strain: [5.5, 4.5, 3.5, 2.5, 1.5, 0.5]
+  curvature: [5.5, 4.5, 3.5, 2.5, 1.5, 0.5]
