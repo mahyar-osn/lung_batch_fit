@@ -1,11 +1,34 @@
-inputs:
-  model_file_name:
-  - 'D:/12-labours/codes/python-packages/lung_batch_fit/tests/resources/lung_mesh.exf'
-  data_file_name:
-  - 'D:/12-labours/codes/python-packages/lung_batch_fit/tests/resources/hla-tlc_pred.exdata'
+root_directory: 'D:\12-labours\lung\merryn-data-fitting\new-annotations\high-rms'
+scaffold_path: 'D:\12-labours\lung\generic-scaffolds\right_lung_scaffold.exf'
 
-output_path:
+groups_right_lung:
+  { 'edge_RL_base_lat': 'lateral edge of base of lower lobe of right lung',
+    'edge_RL_base_med': 'medial edge of base of lower lobe of right lung',
+    'edge_RL_fiss_base': 'base edge of oblique fissure',
+    'edge_RL_H_fiss_lat': 'lateral edge of horizontal fissure of lower lobe of right lung',
+    'edge_RL_H_fiss_med': 'medial edge of horizontal fissure of lower lobe of right lung',
+    'edge_RL_posterior': 'posterior edge of lower lobe of right lung',
+    'edge_RM_anterior': 'anterior edge of middle lobe of right lung',
+    'edge_RM_base_lat': 'lateral edge of base of middle lobe of right lung',
+    'edge_RM_base_med': 'medial edge of base of middle lobe of right lung',
+    'edge_RM_H_fiss_lat': 'lateral edge of horizontal fissure of middle lobe of right lung',
+    'edge_RM_H_fiss_med': 'medial edge of horizontal fissure of middle lobe of right lung',
+    'edge_RM_O_fiss_lat': 'lateral edge of oblique fissure of middle lobe of right lung',
+    'edge_RM_O_fiss_med': 'medial edge of oblique fissure of middle lobe of right lung',
+    'edge_RU_ant_post': 'root of pulmonary valve',
+    'RL_horiz_fissure': 'oblique fissure of upper lobe of right lung',
+    'RLL_base': 'base of lower lobe of right lung surface',
+    'RLL_lateral': 'lateral surface of lower lobe of right lung',
+    'RLL_medial': 'medial surface of lower lobe of right lung',
+    'RM_horiz_fissure': 'horizontal fissure of right lung',
+    'RM_oblique_fissure': 'oblique fissure of middle lobe of right lung',
+    'RML_base': 'base of middle lobe of right lung surface',
+    'RML_lateral': 'lateral surface of middle lobe of right lung',
+    'RML_medial': 'medial surface of middle lobe of right lung',
+    'RUL_lateral': 'lateral surface of upper lobe of right lung',
+    'RUL_medial': 'medial surface of upper lobe of right lung' }
 
-params:
-  strain: [5.5, 4.5, 3.5, 2.5, 1.5, 0.5]
-  curvature: [5.5, 4.5, 3.5, 2.5, 1.5, 0.5]
+fit_setting: '02'
+
+rms_output_directory: 'rms_output_dir'
+rms_output_file_name: 'updated'
