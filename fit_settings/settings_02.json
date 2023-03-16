@@ -1,0 +1,205 @@
+{
+    "modelCoordinatesField": "coordinates",
+    "modelFitGroup": null,
+    "fibreField": null,
+    "flattenGroup": null,
+    "dataCoordinatesField": "coordinates",
+    "markerGroup": "marker",
+    "diagnosticLevel": 1,
+    "fitterSteps": [
+        {
+            "_FitterStepConfig": true,
+            "groupSettings": {}
+        },
+        {
+            "_FitterStepAlign": true,
+            "groupSettings": {},
+            "alignGroups": true,
+            "alignMarkers": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "<default>": {
+                    "strainPenalty": [
+                        0.1
+                    ],
+                    "curvaturePenalty": [
+                        100.0
+                    ],
+                    "dataSlidingFactor": 0.0
+                }
+            },
+            "numberOfIterations": 5,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "<default>": {
+                    "strainPenalty": [
+                        0.1
+                    ],
+                    "curvaturePenalty": [
+                        100.0
+                    ]
+                }
+            },
+            "numberOfIterations": 5,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "<default>": {
+                    "strainPenalty": [
+                        0.05
+                    ],
+                    "curvaturePenalty": [
+                        80.0
+                    ]
+                }
+            },
+            "numberOfIterations": 5,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "<default>": {
+                    "strainPenalty": [
+                        0.03
+                    ],
+                    "curvaturePenalty": [
+                        60.0
+                    ]
+                }
+            },
+            "numberOfIterations": 5,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {},
+            "numberOfIterations": 5,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "<default>": {
+                    "strainPenalty": [
+                        0.01
+                    ],
+                    "curvaturePenalty": [
+                        50.0
+                    ]
+                }
+            },
+            "numberOfIterations": 2,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {},
+            "numberOfIterations": 5,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "<default>": {
+                    "strainPenalty": [
+                        0.005
+                    ]
+                }
+            },
+            "numberOfIterations": 2,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "<default>": {
+                    "strainPenalty": [
+                        0.003
+                    ],
+                    "curvaturePenalty": [
+                        30.0
+                    ]
+                }
+            },
+            "numberOfIterations": 5,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "<default>": {
+                    "strainPenalty": [
+                        0.001
+                    ]
+                }
+            },
+            "numberOfIterations": 5,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "<default>": {
+                    "strainPenalty": [
+                        0.001
+                    ],
+                    "curvaturePenalty": [
+                        10.0
+                    ]
+                }
+            },
+            "numberOfIterations": 1,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        },
+        {
+            "_FitterStepFit": true,
+            "groupSettings": {
+                "medial surface of middle lobe of right lung": {
+                    "strainPenalty": [
+                        0.001
+                    ],
+                    "curvaturePenalty": [
+                        100.0
+                    ]
+                },
+                "medial surface of upper lobe of right lung": {
+                    "curvaturePenalty": [
+                        100.0
+                    ]
+                },
+                "medial edge of base of lower lobe of right lung": {
+                    "curvaturePenalty": [
+                        100.0
+                    ]
+                },
+                "anterior border of right lung": {
+                    "curvaturePenalty": [
+                        100.0
+                    ]
+                }
+            },
+            "numberOfIterations": 1,
+            "maximumSubIterations": 1,
+            "updateReferenceState": false
+        }
+    ]
+}
