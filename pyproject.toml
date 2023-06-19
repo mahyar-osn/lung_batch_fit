@@ -8,6 +8,5 @@ version = "0.0.1"
 requires-python = ">= 3.6, < 3.10"
 dependencies = [
     "hydra-core==1.2.0",
-    "scaffoldfitter",
     "opencmiss.zinc>=3.8.0",
 ]
